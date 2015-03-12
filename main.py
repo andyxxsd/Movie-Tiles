@@ -7,9 +7,9 @@ __author__ = 'skylarzheng'
 		4.  Your webbrowser will pop up and display the website.
 '''
 
-from crawler import crawl
+from src.crawler import crawl
 from movie_url import urls
-from html_render import *
+from src.html_render import *
 
 movies = crawl(urls, True)
 open_movies_page(movies)

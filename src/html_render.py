@@ -9,8 +9,8 @@ import webbrowser
 import os
 
 # Styles and scripting for the page
-main_page = open("template.html", 'r').read()
-main_page_head = open("head.html", 'r').read()
+main_page = open("./static/template.html", 'r').read()
+main_page_head = open("./static/head.html", 'r').read()
 
 # A single movie entry html template
 movie_tile_content = '''

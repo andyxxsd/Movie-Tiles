@@ -1,5 +1,5 @@
 from pyquery import PyQuery as pq
-from module import Movie
+from src.module import Movie
 import re
 from datetime import datetime
 
