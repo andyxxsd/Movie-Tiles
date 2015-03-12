@@ -22,4 +22,4 @@ class Movie(Basic):
 		self.genre = info["genre"]
 
 	def __str__(self):
-		print(self.title, "directed by", self.director)
+		return self.title + " directed by " + (len(self.director)>1 and self.director.__str__() or self.director[0])

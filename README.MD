@@ -6,3 +6,6 @@
 ####Movie url format
 	http://www.imdb.com/title/{Movie_ID}/
 Only work for IMDB home page links.
+
+####Compatibility
+Tested on: __Chrome__, __Firefox__, __Safari__

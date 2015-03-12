@@ -12,6 +12,8 @@ def crawl(urls=[], debug=False):
 			item.append(pq(val).html().strip())
 		return item
 
+	if not debug:
+		print("Receiving data:")
 	movies = []
 	for url in urls:
 		if debug:
@@ -30,4 +32,6 @@ def crawl(urls=[], debug=False):
 		movies.append(Movie(res))
 		if debug:
 			print(res)
+		else:
+			print(movies[len(movies)-1].__str__())
 	return movies

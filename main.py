@@ -11,6 +11,6 @@ from src.crawler import crawl
 from movie_url import urls
 from src.html_render import *
 
-movies = crawl(urls, True)
+movies = crawl(urls, False)
 open_movies_page(movies)
 print("Done")
