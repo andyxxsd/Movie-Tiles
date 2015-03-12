@@ -1,6 +1,10 @@
 ####Install commend:
 	pip install -r requirement.txt
 
+####How to run:
+After install the dependencies, just let code run.
+	python main.py
+
 ####Environment:
 python3, pip
 
