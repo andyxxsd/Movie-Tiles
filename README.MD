@@ -2,7 +2,7 @@
 	pip install -r requirement.txt
 
 ####Enviroment:
-	__python3__, __pip__
+__python3__, __pip__
 
 ####Static movie trailer website assemble procedure:
 1.  Select movies. Then wrote their IMDB home page links into __movie_url.py__.
